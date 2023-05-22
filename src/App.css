@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100;800&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  background-color: hsl(218, 23%, 16%);
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: hsl(218, 23%, 16%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +27,93 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.content-card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    text-align: center;
+    padding: 3rem;
+    min-width: 20rem;
+    max-width: 75%;
+    margin: 0 auto;
+    transition: .5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+h1 {
+  color: #fff;
 }
+
+h2 {
+  color: hsl(190, 100%, 66%);
+  /* margin-top: 0; */
+  font-weight: 100;
+}
+
+h3 {
+    color: hsl(190, 100%, 66%);
+    /* margin-top: 0; */
+    font-weight: 50;
+}
+
+
+#adviceText {
+  font-size: 28px;
+}
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    background-color: hsl(190, 100%, 66%);
+    padding: 0px;
+    border-radius: 20px;
+    display: inline-block;
+    width:11rem;
+    height: 3rem;
+    transition: 0.7s;
+    margin: auto 12px;
+    
+}
+
+
+.button p {
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: 'Manrope', sans-serif;
+  font-size: larger;
+  text-align: center;
+  padding: 0px;
+}
+
+.buttonRaiting {
+  background-color: transparent;
+  border: black;
+  outline: black;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: larger;
+  margin: auto;
+}
+
+.on {
+  color: hsl(239, 100%, 66%);
+}
+
+.off {
+  color: #ccc
+}
+
+
+.button:hover {
+    box-shadow: 0 0 10px hsl(226, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%);
+}
+
+
+#userMsg {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    color: #fff;
+    font-style: italic;
+}
+
+
