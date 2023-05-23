@@ -7,10 +7,9 @@ function App() {
   return (
     <body>
       <div className="App">
-        
         <div class="content-card">
           <header className="App-header">
-            <h1>JavaScript Course</h1>
+            <h1>JavaScript With React Course</h1>
             <h4> May 2023</h4>
             <img src={logo} className="App-logo" alt="logo" />
             <div class="raiting">
