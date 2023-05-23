@@ -57,10 +57,6 @@ h3 {
 }
 
 
-#adviceText {
-  font-size: 28px;
-}
-
 .button {
     cursor: pointer;
     text-align: center;
@@ -90,13 +86,18 @@ h3 {
   border: black;
   outline: black;
   cursor: pointer;
-  font-weight: 100;
-  font-size: larger;
-  margin: auto;
+  font-family: "Lucida Sans Unicode", "Arial Unicode MS";
+  font-size: 200px;
+  vertical-align: middle;
+}
+
+span {
+  font-size:30px;
+  transform: scale(.5, 1);
 }
 
 .on {
-  color: hsl(239, 100%, 66%);
+  color: hsl(8, 100%, 66%);
 }
 
 .off {
